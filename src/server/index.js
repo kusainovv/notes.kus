@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors({
 	credentials: true,
-	origin: 'https://notes-kus.vercel.app',
+	origin: 'notes-kus-z1be.vercel.app',
 }));
 app.use(express.json());
 app.use('/api', route);
