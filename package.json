@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --stats-error-details"
+    "start": "webpack serve --stats-error-details",
+    "serve": "nodemon src/server/index.js",
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
